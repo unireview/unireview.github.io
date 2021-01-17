@@ -10109,8 +10109,8 @@ img::-moz-selection {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
