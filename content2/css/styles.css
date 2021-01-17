@@ -613,6 +613,12 @@ pre code {
   padding-left: 0.75rem;
 }
 
+.col-md-edited {
+  position: relative;
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+}
 
 .col {
   flex-basis: 0;
@@ -4124,7 +4130,7 @@ input[type=button].btn-block {
     flex-basis: auto;
   }
   .navbar-expand-md .navbar-toggler {
-    display: none;
+    display: flex;
   }
 }
 @media (max-width: 991.98px) {
@@ -7587,7 +7593,7 @@ button.bg-dark:focus {
 
 .mt-4,
 .my-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 9rem !important;
 }
 
 .mr-4,
@@ -7597,7 +7603,7 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 4.5rem !important;
 }
 
 .ml-4,
@@ -10061,7 +10067,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #212529; 
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
