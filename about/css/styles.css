@@ -591,6 +591,10 @@ pre code {
   margin-left: -0.75rem;
 }
 
+.row.text-center {
+  margin-bottom: 5rem;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -10132,7 +10136,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-background-university.jpg");
+  background-image: url("img/header-background-university.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
