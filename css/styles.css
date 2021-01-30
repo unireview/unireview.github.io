@@ -164,8 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #fed136;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -10176,6 +10175,8 @@ header.masthead .masthead-heading {
   margin-left: auto;
   margin-right: auto;
 }
+
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -10186,7 +10187,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  /* background: rgba(254, 209, 54, 0.9); */
+  background: rgba(254, 211, 54, 0.258);
   align-items: center;
   justify-content: center;
   opacity: 0;
