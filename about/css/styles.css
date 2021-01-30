@@ -586,7 +586,6 @@ pre code {
 }
 .row {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
@@ -2896,15 +2895,15 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #212529;
+  color: #fed136;
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #FEC810;
-  text-decoration: none;
+  color: #e6b301;
+  text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4382,7 +4381,6 @@ input[type=button].btn-block {
 
 .card-text:last-child {
   margin-bottom: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card-link:hover {
