@@ -586,7 +586,7 @@ pre code {
 }
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;

@@ -164,8 +164,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #fed136;
-  text-decoration: underline;
+  color: #212529;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -2901,11 +2901,11 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color:#FED136;
+  color: #fec810;
   text-decoration: none;
 }
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -4340,9 +4340,10 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -4370,6 +4371,12 @@ input[type=button].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  background: #F7F7F7;
+}
+
+.card-body:hover {
+  background: #fed33687;
+  transition:  ease-in-out 0.25s;
 }
 
 .card-title {
