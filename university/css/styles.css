@@ -2903,6 +2903,7 @@ fieldset:disabled a.btn {
 .btn-link:hover {
   color: #fec810;
   text-decoration: none;
+  transition: transform 0.25s ease-in-out;
 }
 .btn-link:focus, .btn-link.focus {
   text-decoration: none;
@@ -4372,11 +4373,6 @@ input[type=button].btn-block {
   min-height: 1px;
   padding: 1.25rem;
   background: #F7F7F7;
-}
-
-.card-body:hover {
-  background: #fed33687;
-  transition:  ease-in-out 0.25s;
 }
 
 .card-title {

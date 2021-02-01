@@ -2430,7 +2430,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: #fec810;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -10060,7 +10060,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529d4;
+  background-color: #212529;
 }
 
 #mainNav.navbar-shrink {
