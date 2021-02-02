@@ -611,7 +611,7 @@ pre code {
     padding-left: 0.75rem;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
 @media (min-width: 576px) {
@@ -3124,7 +3124,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #212529;
+    color: #565656;
     text-decoration: none;
 }
 
@@ -10208,7 +10208,6 @@ img::-moz-selection {
     font-size: 0.75rem;
     color: #fff;
     text-transform: uppercase;
-    background-color: #fed136;
     border: 0;
 }
 
