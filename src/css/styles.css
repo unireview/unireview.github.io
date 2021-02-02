@@ -183,6 +183,7 @@ a {
 }
 
 a:hover {
+    color: #212529;
     text-decoration: none;
 }
 
@@ -604,6 +605,15 @@ pre code {
     margin-left: auto;
 }
 
+.container-content {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 150px;
+}
+
 @media (min-width: 576px) {
     .container-sm,
     .container {
@@ -638,11 +648,19 @@ pre code {
     }
 }
 
+.row-index {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -0.75rem;
     margin-left: -0.75rem;
+    justify-content: center;
 }
 
 .no-gutters {
@@ -726,6 +744,13 @@ pre code {
 .col-3,
 .col-2,
 .col-1 {
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.col-md-edited {
     position: relative;
     width: 100%;
     padding-right: 0.75rem;
@@ -4487,7 +4512,7 @@ input[type=button].btn-block {
         flex-basis: auto;
     }
     .navbar-expand-md .navbar-toggler {
-        display: none;
+        display: flex;
     }
 }
 
@@ -4735,7 +4760,6 @@ input[type=button].btn-block {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
 
@@ -4770,6 +4794,7 @@ input[type=button].btn-block {
     flex: 1 1 auto;
     min-height: 1px;
     padding: 1.25rem;
+    background: #F7F7F7;
 }
 
 .card-title {
@@ -8056,6 +8081,12 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
     margin-top: 1.5rem !important;
+    margin-bottom: 30px;
+    height: 150px;
+    padding-left: 60px;
+    width: 890px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .mr-4,
@@ -8063,9 +8094,16 @@ button.bg-dark:focus {
     margin-right: 1.5rem !important;
 }
 
-.mb-4,
-.my-4 {
+.mb-15 {
     margin-bottom: 1.5rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 4.5rem;
+    width: 560px;
+    height: 300px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .ml-4,
@@ -9811,6 +9849,10 @@ button.bg-dark:focus {
     text-align: center !important;
 }
 
+.text-center .mg-7 {
+    margin-bottom: 70px;
+}
+
 @media (min-width: 576px) {
     .text-sm-left {
         text-align: left !important;
@@ -10171,6 +10213,7 @@ img::-moz-selection {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #212529;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
 }
 
 #mainNav .navbar-toggler {
@@ -10188,6 +10231,7 @@ img::-moz-selection {
     font-weight: 700;
     letter-spacing: 0.0625em;
     text-transform: uppercase;
+    transition: font-size 0.3s ease-in-out;
 }
 
 #mainNav .navbar-brand img {
@@ -10221,7 +10265,7 @@ img::-moz-selection {
         padding-top: 1rem;
         padding-bottom: 1rem;
         border: none;
-        background-color: #212529d4;
+        background-color: #212529;
         transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
