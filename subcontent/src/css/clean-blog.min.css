@@ -102,85 +102,93 @@ img::-moz-selection {
 }
 
 #mainNav {
-    position: absolute;
-    border-bottom: 1px solid #e9ecef;
-    background-color: #fff;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
-}
-
-#mainNav .navbar-brand {
-    font-weight: 800;
-    color: #343a40
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #21252900;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
 }
 
 #mainNav .navbar-toggler {
-    font-size: 12px;
-    font-weight: 800;
-    padding: 13px;
+    padding: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.75rem;
+    color: #fff;
     text-transform: uppercase;
-    color: #343a40
+    border: 0;
 }
 
-#mainNav .navbar-nav>li.nav-item>a {
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-transform: uppercase
+#mainNav .navbar-brand {
+    color: #ffffff;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    letter-spacing: 0.0625em;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease-in-out;
 }
 
-@media only screen and (min-width:992px) {
+#mainNav .navbar-brand img {
+    height: 2.5rem;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.95rem;
+    color: #fff;
+    letter-spacing: 0.0625rem;
+}
+
+#mainNav.navbar-shrink {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    font-size: 0.85em;
+    color: #212529;
+}
+
+#mainNav.navbar-shrink .navbar-toggler {
+    color: #212529;
+}
+
+#mainNav.navbar-shrink .nav-item .nav-link {
+    color: #212529;
+}
+
+@media (min-width: 992px) {
     #mainNav {
-        border-bottom: 1px solid transparent;
-        background: 0 0
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: none;
+        background-color: #21252900;
+        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
-        padding: 10px 20px;
-        color: #fff
+        font-size: 1.5rem;
+        transition: font-size 0.3s ease-in-out;
     }
-    #mainNav .navbar-brand:focus,
-    #mainNav .navbar-brand:hover {
-        color: rgba(255, 255, 255, .8)
+    #mainNav .navbar-brand img {
+        height: 2rem;
+        transition: height 0.3s ease-in-out;
     }
-    #mainNav .navbar-nav>li.nav-item>a {
-        padding: 10px 20px;
-        color: #fff
+    #mainNav.navbar-shrink {
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        background-color: rgba(255, 255, 255, .9);
     }
-    #mainNav .navbar-nav>li.nav-item>a:focus,
-    #mainNav .navbar-nav>li.nav-item>a:hover {
-        color: rgba(255, 255, 255, .8)
+    #mainNav.navbar-shrink .navbar-brand {
+        font-size: 1.25rem;
     }
-}
-
-@media only screen and (min-width:992px) {
-    #mainNav {
-        transition: background-color .2s;
-        transform: translate3d(0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden
+    #mainNav.navbar-shrink .navbar-brand svg,
+    #mainNav.navbar-shrink .navbar-brand img {
+        height: 2.5rem;
     }
-    #mainNav.is-fixed {
-        position: fixed;
-        top: -67px;
-        transition: transform .2s;
-        border-bottom: 1px solid #fff;
-        background-color: rgba(255, 255, 255, .9)
+    #mainNav .navbar-nav .nav-item {
+        margin-right: 1rem;
     }
-    #mainNav.is-fixed .navbar-brand {
-        color: #212529
-    }
-    #mainNav.is-fixed .navbar-brand:focus,
-    #mainNav.is-fixed .navbar-brand:hover {
-        color: #0085a1
-    }
-    #mainNav.is-fixed .navbar-nav>li.nav-item>a {
-        color: #212529
-    }
-    #mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,
-    #mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
-        color: #0085a1
-    }
-    #mainNav.is-visible {
-        transform: translate3d(0, 100%, 0)
+    #mainNav .navbar-nav .nav-item:last-child {
+        margin-right: 0;
     }
 }
 
