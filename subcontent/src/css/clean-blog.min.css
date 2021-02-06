@@ -190,7 +190,8 @@ header.masthead {
     background-color: #868e96;
     background-attachment: scroll;
     position: relative;
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header.masthead .overlay {

@@ -8235,11 +8235,6 @@ button.bg-dark:focus {
     padding: 1.5rem !important;
 }
 
-.pt-4,
-.py-4 {
-    padding-top: 1.5rem !important;
-}
-
 .pr-4,
 .px-4 {
     padding-right: 1.5rem !important;
@@ -8247,7 +8242,7 @@ button.bg-dark:focus {
 
 .pb-4,
 .py-4 {
-    padding-bottom: 1.5rem !important;
+    padding-bottom: 1rem !important;
 }
 
 .pl-4,
