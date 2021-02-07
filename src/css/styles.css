@@ -2809,8 +2809,8 @@ fieldset:disabled a.btn {
 
 .btn-dark:hover {
     color: #fff;
-    background-color: #23272b;
-    border-color: #1d2124;
+    background-color: #4EC5E2;
+    border-color: #4EC5E2;
 }
 
 .btn-dark:focus,
@@ -4794,6 +4794,7 @@ input[type=button].btn-block {
     min-height: 1px;
     padding: 1.25rem;
     background: #F7F7F7;
+    transition: 0.15s;
 }
 
 .card-title {
@@ -10237,9 +10238,9 @@ img::-moz-selection {
     font-size: 0.95rem;
     color: #fff;
     letter-spacing: 0.0625em;
+    transition: 0.25s ease-in-out;
 }
 
-#mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #4EC5E2;
 }
@@ -10374,6 +10375,7 @@ header.masthead .masthead-heading {
     padding: 1.5rem;
     text-align: center;
     background-color: #F7F7F7;
+    transition: 0.15s;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
