@@ -2517,20 +2517,17 @@ fieldset:disabled a.btn {
 .btn-primary {
     color: #fff;
     background-color: #4EC5E2;
-    border-color: #4EC5E2;
 }
 
 .btn-primary:hover {
     color: rgb(209, 206, 206);
     background-color: #3894ac;
-    border-color: #3aa9c5;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
     color: rgb(209, 206, 206);
     background-color: #3894ac;
-    border-color: #3894ac;
     box-shadow: 0 0 0 0.2rem rgba(84, 228, 254, 0.322)
 }
 
@@ -2538,7 +2535,6 @@ fieldset:disabled a.btn {
 .btn-primary:disabled {
     color: rgb(209, 206, 206);
     background-color: #4EC5E2;
-    border-color: #4EC5E2;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -2546,7 +2542,6 @@ fieldset:disabled a.btn {
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #00ccff;
-    border-color: #00bdec;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -4751,17 +4746,6 @@ input[type=button].btn-block {
     color: #fff;
 }
 
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border-radius: 0.25rem;
-}
-
 .card>hr {
     margin-right: 0;
     margin-left: 0;
@@ -4787,6 +4771,14 @@ input[type=button].btn-block {
 .card>.card-header+.list-group,
 .card>.list-group+.card-footer {
     border-top: 0;
+}
+
+.border-shadow {
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+.border-shadow:hover {
+    box-shadow: 0 0 0 0.3rem rgba(37, 180, 206, 0.295);
 }
 
 .card-body {
@@ -4866,18 +4858,6 @@ input[type=button].btn-block {
 .card-img-bottom {
     flex-shrink: 0;
     width: 100%;
-}
-
-.card-img,
-.card-img-top {
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
-}
-
-.card-img,
-.card-img-bottom {
-    border-bottom-right-radius: calc(0.25rem - 1px);
-    border-bottom-left-radius: calc(0.25rem - 1px);
 }
 
 .card-deck .card {
@@ -10342,6 +10322,11 @@ header.masthead .masthead-heading {
     max-width: 25rem;
     margin-left: auto;
     margin-right: auto;
+    transition: box-shadow 0.15s ease-in-out;
+}
+
+#portfolio .portfolio-item:hover {
+    box-shadow: 0 0 0 0.3rem rgba(37, 180, 206, 0.295);
 }
 
 #portfolio .portfolio-item .portfolio-link {
