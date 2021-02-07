@@ -2809,8 +2809,8 @@ fieldset:disabled a.btn {
 
 .btn-dark:hover {
     color: #fff;
-    background-color: #23272b;
-    border-color: #1d2124;
+    background-color: #4EC5E2;
+    border-color: #4EC5E2;
 }
 
 .btn-dark:focus,
