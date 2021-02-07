@@ -137,6 +137,10 @@ img::-moz-selection {
     letter-spacing: 0.0625rem;
 }
 
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #4EC5E2;
+}
+
 #mainNav.navbar-shrink {
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
@@ -145,7 +149,7 @@ img::-moz-selection {
 
 #mainNav.navbar-shrink .navbar-brand {
     font-size: 0.85em;
-    color: #212529;
+    color: #4EC5E2;
 }
 
 #mainNav.navbar-shrink .navbar-toggler {
@@ -154,6 +158,10 @@ img::-moz-selection {
 
 #mainNav.navbar-shrink .nav-item .nav-link {
     color: #212529;
+}
+
+#mainNav.navbar-shrink .nav-item .nav-link:hover {
+    color: #4EC5E2;
 }
 
 @media (min-width: 992px) {
