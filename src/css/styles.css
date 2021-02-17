@@ -4787,6 +4787,7 @@ input[type=button].btn-block {
     padding: 1.25rem;
     background: #F7F7F7;
     transition: 0.15s;
+    
 }
 
 .card-title {
@@ -10360,6 +10361,32 @@ header.masthead .masthead-heading {
     text-align: center;
     background-color: #F7F7F7;
     transition: 0.15s;
+}
+
+/* portfolio-caption dynamic */
+
+@media (min-width: 576px){
+    #portfolio .portfolio-item .portfolio-caption{
+        height: 168px;
+    }
+}
+
+@media (min-width: 768px) {
+    #portfolio .portfolio-item .portfolio-caption {
+        height: 136px;
+    }
+}
+
+@media (min-width: 992px){
+    #portfolio .portfolio-item .portfolio-caption{
+        height: 168px;
+    }
+}
+
+@media (min-width: 1200px){
+    #portfolio .portfolio-item .portfolio-caption{
+        height: 138px;
+    }
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
