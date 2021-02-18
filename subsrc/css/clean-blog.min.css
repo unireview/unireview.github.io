@@ -16,7 +16,7 @@ p {
 }
 
 p a {
-    text-decoration: underline
+    text-decoration: none;
 }
 
 h1,
@@ -29,14 +29,29 @@ h6 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
-a {
-    color: #212529;
-    transition: all .2s
+h2 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 680;
+    margin-top: 60px;
 }
 
-a:focus,
+h3 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+a {
+    color: #212529;
+    transition: all .2s;
+    text-decoration: none;
+}
+
 a:hover {
-    color: #4EC5E2
+    color: #4EC5E2;
+    text-decoration: none;
 }
 
 blockquote {
@@ -46,12 +61,12 @@ blockquote {
 
 .section-heading {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: 680;
     margin-top: 60px
 }
 
 .daughter-heading {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     margin-top: 50px;
 }
@@ -65,7 +80,6 @@ blockquote {
 
 .caption {
     font-size: 14px;
-    font-style: italic;
     display: block;
     margin: 0;
     padding: 10px;
