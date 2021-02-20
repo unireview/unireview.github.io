@@ -49,29 +49,4 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 
-
-    // var maxHeight = 0;
-    // $('.portfolio-caption').each(function() {
-    //     maxHeight = Math.max(maxHeight, $(this).height());
-    // });
-    // $('.portfolio-caption').css({ height: maxHeight + 'px' });
-
-
-
-
-
 })(jQuery); // End of use strict
-
-
-// $(document).ready(function() {
-//     var lastScrollTop = 0;
-//     $(window).scroll(function() {
-//         var currentScrollTop = $(this).scrollTop();
-//         if (currentScrollTop < lastScrollTop) {
-//             $('.navbar').addClass('fixed-top');
-//         } else if (currentScrollTop > lastScrollTop) {
-//             $('.navbar').removeClass('fixed-top');
-//         }
-//         lastScrollTop = currentScrollTop;
-//     });
-// });
