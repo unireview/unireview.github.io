@@ -4769,11 +4769,11 @@ input[type=button].btn-block {
 
 .border-shadow {
     transition: box-shadow 0.15s ease-in-out;
-    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.15);
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.16);
 }
 
 .border-shadow:hover {
-    box-shadow: 0 12px 16px rgba(37, 181, 206, 0.3);
+    box-shadow: 0 8px 16px rgba(37, 181, 206, 0.48);
 }
 
 .card-body {
@@ -10318,12 +10318,12 @@ header.masthead .masthead-heading {
     margin-left: auto;
     margin-right: auto;
     transition: box-shadow 0.15s ease-in-out;
-    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.15);
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.16);
     background: #F7F7F7;
 }
 
 #portfolio .portfolio-item:hover {
-    box-shadow: 0 8px 16px rgba(37, 181, 206, 0.5);
+    box-shadow: 0 8px 16px rgba(37, 181, 206, 0.48);
 }
 
 #portfolio .portfolio-item .portfolio-link {
