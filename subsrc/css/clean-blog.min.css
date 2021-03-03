@@ -32,7 +32,7 @@ h6 {
 h2 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 36px;
-    font-weight: 680;
+    font-weight: 650;
     margin-top: 60px;
 }
 
@@ -41,6 +41,12 @@ h3 {
     font-size: 28px;
     font-weight: 600;
     margin-top: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: 40px;
 }
 
 a {
