@@ -1,0 +1,5 @@
+# Block from Googlebot
+User-agent: Googlebot
+Disallow: /university/
+Allow: /university/fpt_uni/
+
