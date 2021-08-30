@@ -1,0 +1,74 @@
+nav > div > button[class*="navbar"] {
+  color: white !important;
+  font-size: 1em !important;
+}
+
+nav > div > button[class*="navbar"]:focus{
+    border: none !important;
+}
+
+header[class="masthead"] {
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header[class='masthead']>div[class="container"] {
+    margin-top: 10vh;
+}
+
+header[class='masthead']>div[class="container"]>a[class*="btn"]{
+    background-color: #4EC5E2;
+    border: none;
+}
+
+header[class='masthead']>div[class="container"]>a[class*="btn"]:hover{
+    background-color: #3c98af;
+    color: rgb(189, 189, 189);
+}
+
+header[class='masthead']>div[class="container"]>a[class*="btn"]:focus{
+    box-shadow: 0 0 0 0.2rem #4ec4e283;
+}
+
+nav > div > a[class*="navbar-brand"] {
+  color: #4ec5e2 !important;
+  font-size: 1.5em !important ;
+}
+
+#navbarResponsive a {
+    font-size: large !important;
+    transition: 0.15s;
+
+}
+
+#navbarResponsive a[class*="active"]{
+    color: #33B6E2 !important;
+
+}
+
+#navbarResponsive a:hover {
+    color: #33B6E2 !important;
+    font-size: x-large !important;
+}
+
+#portfolio {
+    padding-top: 0;
+}
+
+div[class*=row]>div[class*=text-center]{
+    margin-top: 5em;
+}
+
+@media all and (max-width: 768px){
+    #contents .row .col-md-6 .portfolio-item img {
+        min-width: 416px;
+      }
+}
+
+@media all and (min-width: 992px){
+  #contents .row .col-md-6 .portfolio-item img {
+    min-width: 416px;
+  }
+}
+
