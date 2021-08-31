@@ -1,11 +1,20 @@
 nav > div > button[class*="navbar"] {
   color: white !important;
   font-size: 1em !important;
+  transition: 0.5s;
+}
+
+nav > div > button[class*="navbar"]:hover{
+  color: #33B6E2 !important;
 }
 
 nav > div > button[class*="navbar"]:focus{
     border: none !important;
+    box-shadow: none !important;
+    
 }
+
+
 
 header[class="masthead"] {
   background-position: center;
@@ -37,11 +46,26 @@ header[class='masthead']>div[class="container"]>a[class*="btn"]:focus{
 #mainNav {
   transition-duration: 0.5s;
   transition-property: all;
+  padding: 1em;
 }
 
 nav > div > a[class*="navbar-brand"] {
   color: #4ec5e2 !important;
-  font-size: 1.5em !important ;
+  font-size: 1.7em !important ;
+  transition: 0.5s !important;
+}
+
+nav > div > a[class*="navbar-brand"]:hover{
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 0 0 25px #60d7ff;
+}
+
+nav.navbar.navbar-shrink {
+  padding: 15px 0 !important;
+}
+
+nav.navbar.navbar-shrink .navbar-brand{
+  font-size: 1.2em !important;
 }
 
 #navbarResponsive a {

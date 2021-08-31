@@ -1,31 +1,31 @@
-
-#home>.header{
-    margin: 130px 0 50px 0;
-    text-align: center;
+#mainNav {
+  background-color: #212529 !important;
 }
 
-#home>.header>h1{
-    font-size: 3em;
+nav.navbar.navbar-shrink {
+  padding: 5px 0 !important;
 }
 
-#home>.header>small{
-    font-size: 1.5em;
+nav.navbar.navbar-shrink .navbar-brand {
+  font-size: 1.2em !important;
 }
 
-.container>.row .portfolio-item{
-    margin: 20px;
+#home {
+  padding: 10em 0 5em 0;
+}
+#home > .header {
+  margin:  0 0 50px 0;
+  text-align: center;
 }
 
-
-
-/* @media all and (max-width: 992px){
-    .container>.row .portfolio-item>a[class*="btn-link"]>.card-body{
-        height: 9em;
-    }
+#home > .header > h1 {
+  font-size: 3em;
 }
 
-@media all and (max-width: 768px){
-    .container>.row .portfolio-item>a[class*="btn-link"]>.card-body{
-        height: auto;
-    }
-} */
+#home > .header > small {
+  font-size: 1.5em;
+}
+
+.container > .row .portfolio-item {
+  margin: 20px;
+}
