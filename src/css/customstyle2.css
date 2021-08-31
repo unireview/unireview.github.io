@@ -1,0 +1,31 @@
+
+#home>.header{
+    margin: 130px 0 50px 0;
+    text-align: center;
+}
+
+#home>.header>h1{
+    font-size: 3em;
+}
+
+#home>.header>small{
+    font-size: 1.5em;
+}
+
+.container>.row .portfolio-item{
+    margin: 20px;
+}
+
+
+
+/* @media all and (max-width: 992px){
+    .container>.row .portfolio-item>a[class*="btn-link"]>.card-body{
+        height: 9em;
+    }
+}
+
+@media all and (max-width: 768px){
+    .container>.row .portfolio-item>a[class*="btn-link"]>.card-body{
+        height: auto;
+    }
+} */
