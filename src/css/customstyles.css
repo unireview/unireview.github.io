@@ -64,7 +64,7 @@ nav > div > a[class*="navbar-brand"]:hover{
 }
 
 nav.navbar.navbar-shrink {
-  padding: 15px 0 !important;
+  padding: 16px 0 !important;
 }
 
 nav.navbar.navbar-shrink .navbar-brand{
