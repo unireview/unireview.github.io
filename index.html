@@ -1,279 +1,405 @@
 <!DOCTYPE html>
 <html lang="vi">
-
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>UniReview</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="src/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/customstyles.css" />
+  </head>
 
-</head>
-
-<body id="page-top">
+  <body id="page-top">
     <!-- Navigation -->
-    <nav class="navbar  navbar-light fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Uni Review</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#page-top">Trang chủ</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#congnghe">Khối Công nghệ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#kinhte">Khối Kinh tế</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#phuho">Khối Kiến trúc</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#ngoaingu">Khối Ngoại ngữ</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactcard" data-toggle="modal">Giới thiệu</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#about\about.html">About</a>
-                    </li> -->
-                </ul>
-            </div>
+    <nav class="navbar navbar-light fixed-top navbar-shrink" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >Uni Review</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#page-top"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#congnghe"
+                >Khối Công nghệ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#kinhte"
+                >Khối Kinh tế</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#phuho"
+                >Khối Kiến trúc</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#ngoaingu"
+                >Khối Ngoại ngữ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactcard" data-toggle="modal"
+                >Giới thiệu</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- About-->
-    <div class="portfolio-modal modal fade" id="contactcard" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal"><img src="img/close-icon.svg" alt="Close modal" />
+    <div
+      class="portfolio-modal modal fade"
+      id="contactcard"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <img src="img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Chỉnh sửa thông tin tại đây-->
+
+                  <h2 class="text-uppercase">TEAM PRIMUS</h2>
+
+                  <p class="item-intro text-muted">"One team - One spirit".</p>
+
+                  <p>
+                    UniReview là một dự án nhỏ của Team Primus với mục đích mang
+                    đến những thông tin hữu ích về các trường đại học cho các
+                    bạn học sinh, phụ huynh và cũng như các bạn sinh viên.
+                    <br />
+                    Rất mong nhận được sự quan tâm, hỗ trợ và ủng hộ tích cực
+                    của quý vị về dự án của chúng tôi.
+                  </p>
+                  <ul class="list-inline">
+                    Lời mời hợp tác hay thắc mắc xin vui lòng liên hệ
+                    <hr />
+                    <li>
+                      Email:
+                      <a href="mailto:primusteam@outlook.com" class="btn-link"
+                        >primusteam@outlook.com</a
+                      >
+                    </li>
+                    <li>
+                      Github:
+                      <a
+                        href="https://github.com/unireview"
+                        target="_blank"
+                        class="btn-link"
+                        >Unireview</a
+                      >
+                    </li>
+                    <li>
+                      Facebook:
+                      <a
+                        href="https://www.facebook.com/area1110/"
+                        target="_blank"
+                        class="btn-link"
+                        >Khánh Huy,
+                      </a>
+                      <a
+                        href="https://www.facebook.com/ngduc101/"
+                        target="_blank"
+                        class="btn-link"
+                        >Ngoc Duc</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Chỉnh sửa thông tin tại đây-->
-
-                                <h2 class="text-uppercase">TEAM PRIMUS</h2>
-
-                                <p class="item-intro text-muted"> "One team - One spirit".</p>
-
-                                <p>UniReview là một dự án nhỏ của Team Primus với mục đích mang đến những thông tin hữu ích về các trường đại học cho các bạn học sinh, phụ huynh và cũng như các bạn sinh viên.
-                                    <br> Rất mong nhận được sự quan tâm, hỗ trợ và ủng hộ tích cực của quý vị về dự án của chúng tôi.
-                                </p>
-                                <ul class="list-inline">
-                                    Lời mời hợp tác hay thắc mắc xin vui lòng liên hệ
-                                    <hr>
-                                    <li>Email: <a href="mailto:primusteam@outlook.com" class="btn-link">primusteam@outlook.com</a> </li>
-                                    <li>Github: <a href="https://github.com/unireview" target="_blank" class="btn-link">Unireview</a>
-                                    </li>
-                                    <li>Facebook: <a href="https://www.facebook.com/area1110/" target="_blank" class="btn-link">Khánh
-                                            Huy, </a>
-                                        <a href="https://www.facebook.com/ngduc101/" target="_blank" class="btn-link">Ngoc Duc</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Masthead-->
-    <header class="masthead" style="background-image: url('img/header-background-university.jpg');">
-        <div class="container">
-            <div class="masthead-heading text-uppercase">Uni Review</div>
-            <div class="masthead-subheading">Mang đến cái nhìn chân thực nhất.</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contents">Bắt đầu</a>
-        </div>
+    <header
+      class="masthead"
+      style="background-image: url('img/header-background-university.jpg')"
+    >
+      <div class="container">
+        <div class="masthead-heading text-uppercase">Uni Review</div>
+        <div class="masthead-subheading">Mang đến cái nhìn chân thực nhất.</div>
+        <a
+          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+          href="#portfolio"
+          >Bắt đầu</a
+        >
+      </div>
     </header>
 
     <!-- Danh mục trường-->
     <section class="page-section" id="portfolio">
-        <div class="container" id="contents">
-            <!-- <div class="text-center">
-                <h2 class="section-heading text-uppercase">Danh mục các trường</h2>
-                <h3 class="section-subheading text-muted">Lựa chọn nội dung mà bạn muốn xem.</h3>
-            </div> -->
-
-            <div class="text-center" id="congnghe">
-                <h2 class="section-heading text-uppercase">Khối ngành công nghệ</h2>
-                <h3 class="section-subheading text-muted">Lựa chọn nội dung mà bạn muốn xem.</h3>
-            </div>
-            <div class="row-index">
-
-                <!--Đại học FPT-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/fpt_uni/">
-                            <img class="img-fluid img-cropper" src="img/cover/fpt-hanoi-coverimg-400x299.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Đại học FPT Hà Nội</div>
-                                <div class="portfolio-caption-subheading">Ngôi trường '3 chữ'</div>
-                            </div>
-                        </a>
-                    </div>
+      <div class="container" id="contents">
+        <div class="row index" id="congnghe">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Khối ngành công nghệ</h2>
+            <h3 class="section-subheading text-muted">
+              Lựa chọn nội dung mà bạn muốn xem.
+            </h3>
+          </div>
+          <!--Đại học FPT-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/fpt_uni/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/fpt-hanoi-coverimg-400x299.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Đại học FPT Hà Nội
+                  </div>
+                  <div class="portfolio-caption-subheading">
+                    Ngôi trường '3 chữ'
+                  </div>
                 </div>
+              </a>
+            </div>
+          </div>
 
-                <!--Đại học BK Hanoi-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/bach_khoa/">
-                            <img class="img-fluid" src="img/cover/bach_khoa_hanoi_cong_parabol.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">ĐH Bách khoa Hà Nội</div>
-                                <div class="portfolio-caption-subheading">Hanoi University of Science and Technology
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+          <!--Đại học BK Hanoi-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/bach_khoa/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/bach_khoa_hanoi_cong_parabol.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    ĐH Bách khoa Hà Nội
+                  </div>
+                  <div class="portfolio-caption-subheading">
+                    Hanoi University of Science and Technology
+                  </div>
                 </div>
-
+              </a>
             </div>
-
-            <div class="text-center" style="margin-top: 80px;" id="kinhte">
-                <h2 class="section-heading text-uppercase">Khối ngành Kinh tế</h2>
-                <h3 class="section-subheading text-muted">Lựa chọn nội dung mà bạn muốn xem.</h3>
-            </div>
-            <div class="row-index">
-
-                <!--Học viện ngân hàng-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/hv_nganhang/">
-                            <img class="img-fluid" src="img/cover/hv-ngan-hang.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Học viện Ngân Hàng</div>
-                                <div class="portfolio-caption-subheading">Banking Academy
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!--Kinh tế quốc dân-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/kinhtequocdan/">
-                            <img class="img-fluid" src="img/cover/kinhtequocdan.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Đại học Kinh tế Quốc dân</div>
-                                <div class="portfolio-caption-subheading">National Economics University
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="text-center" style="margin-top: 80px;" id="phuho">
-                <h2 class="section-heading text-uppercase">Khối ngành Kiến trúc - Xây dựng</h2>
-                <h3 class="section-subheading text-muted">Lựa chọn nội dung mà bạn muốn xem.</h3>
-            </div>
-            <div class="row-index">
-
-                <!--Kiến trúc-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/kien_truc/">
-                            <img class="img-fluid" src="img/cover/kientruc_index.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Đại học Kiến trúc Hà Nội</div>
-                                <div class="portfolio-caption-subheading">Hanoi Architectural University
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <!--Xây dựng-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/xay_dung/">
-                            <img class="img-fluid" src="img/cover/xaydung_index.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Đại học Xây dựng</div>
-                                <div class="portfolio-caption-subheading">National University of Civil Engineering
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="text-center" style="margin-top: 80px;" id="ngoaingu">
-                <h2 class="section-heading text-uppercase">Khối ngành Ngoại ngữ</h2>
-                <h3 class="section-subheading text-muted">Lựa chọn nội dung mà bạn muốn xem.</h3>
-            </div>
-            <div class="row-index">
-
-                <!--Ngoại ngữ-->
-                <div class="col-lg-4 col-sm-6 mb-15">
-                    <div class="portfolio-item">
-                        <a class="btn-link" href="university/ngoai_ngu/">
-                            <img class="img-fluid" src="img/cover/ngoai_ngu.jpg" alt="[Có lỗi khi tải ảnh]" />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Đại học Ngoại ngữ</div>
-                                <div class="portfolio-caption-subheading">University of Languages & International Studies
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-
+          </div>
         </div>
+
+        <div class="row index" id="kinhte">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Khối ngành Kinh tế</h2>
+            <h3 class="section-subheading text-muted">
+              Lựa chọn nội dung mà bạn muốn xem.
+            </h3>
+          </div>
+          <!--Học viện ngân hàng-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/hv_nganhang/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/hv-ngan-hang.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Học viện Ngân Hàng
+                  </div>
+                  <div class="portfolio-caption-subheading">
+                    Banking Academy
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!--Kinh tế quốc dân-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/kinhtequocdan/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/kinhtequocdan.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Đại học Kinh tế Quốc dân
+                  </div>
+                  <div class="portfolio-caption-subheading">
+                    National Economics University
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row index" id="phuho">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">
+              Khối ngành Kiến trúc - Xây dựng
+            </h2>
+            <h3 class="section-subheading text-muted">
+              Lựa chọn nội dung mà bạn muốn xem.
+            </h3>
+          </div>
+          <!--Kiến trúc-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/kien_truc/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/kientruc_index.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Đại học Kiến trúc Hà Nội
+                  </div>
+                  <div class="portfolio-caption-subheading">
+                    Hanoi Architectural University
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!--Xây dựng-->
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/xay_dung/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/xaydung_index.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Đại học Xây dựng</div>
+                  <div class="portfolio-caption-subheading">
+                    National University of Civil Engineering
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row index" id="ngoaingu">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Khối ngành Ngoại ngữ</h2>
+            <h3 class="section-subheading text-muted">
+              Lựa chọn nội dung mà bạn muốn xem.
+            </h3>
+          </div>
+          <!--Ngoại ngữ-->
+          <div>
+            <div class="portfolio-item">
+              <a class="btn-link" href="university/ngoai_ngu/">
+                <img
+                  class="img-responsive img-fluid"
+                  src="img/cover/ngoai_ngu.jpg"
+                  alt="[Có lỗi khi tải ảnh]"
+                />
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Đại học Ngoại ngữ</div>
+                  <div class="portfolio-caption-subheading">
+                    University of Languages & International Studies
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
-
-
-    <hr>
-
+    <hr />
     <!-- Footer-->
     <footer class="footer py-4" id="contact">
-        <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-lg-4 text-lg-center">
-                    <img class="img-fluid-custom-logo-fptedu d-block mx-auto" src="img/logos/primus_kakudesign.png" alt="" style="width: 125px; margin-bottom: 15px; margin-top: 15px;" />
-                </div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="https://github.com/unireview"><i
-                            class="fab fa-github"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://facebook.com/area1110" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="mailto:primusteam@gmail.com"><i
-                            class="fas fa-envelope"></i></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-center" style="padding-top: 20px;padding-bottom: 23px;">
-                    Copyright © Team Primus 2021
-                </div>
-
-            </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-lg-center">
+            <img
+              class="img-fluid-custom-logo-fptedu d-block mx-auto"
+              src="img/logos/primus_kakudesign.png"
+              alt=""
+              style="width: 125px; margin-bottom: 15px; margin-top: 15px"
+            />
+          </div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://github.com/unireview"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://facebook.com/area1110"
+              target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="mailto:primusteam@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <div
+            class="col-lg-4 text-lg-center"
+            style="padding-top: 20px; padding-bottom: 23px"
+          >
+            Copyright © Team Primus 2021
+          </div>
         </div>
+      </div>
     </footer>
-
-
 
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -282,6 +408,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="src/js/scripts.js"></script>
-</body>
-
+    <script src="src/js/customscripts.js"></script>
+  </body>
 </html>
