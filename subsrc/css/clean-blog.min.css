@@ -137,7 +137,8 @@ img::-moz-selection {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #21252900;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    transition-duration: 0.15s;
+    transition-property: all;
 }
 
 #mainNav .navbar-toggler {
@@ -155,7 +156,7 @@ img::-moz-selection {
     font-weight: 700;
     letter-spacing: 0.0625em;
     text-transform: uppercase;
-    transition: font-size 0.3s ease-in-out;
+    transition-duration: 0.5s ;
 }
 
 #mainNav .navbar-brand img {
@@ -202,7 +203,6 @@ img::-moz-selection {
         padding-bottom: 1rem;
         border: none;
         background-color: #21252900;
-        transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
         font-size: 1.5rem;

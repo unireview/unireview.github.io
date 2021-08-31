@@ -7,7 +7,8 @@ nav.navbar.navbar-shrink {
 }
 
 nav.navbar.navbar-shrink .navbar-brand {
-  font-size: 1.2em !important;
+  font-size: 1em !important;
+  padding: 0 !important;
 }
 
 #home {
@@ -33,5 +34,15 @@ nav.navbar.navbar-shrink .navbar-brand {
 @media all and (min-width: 992px) {
   #home .row .portfolio-item img {
     height: 260px;
+  }
+}
+
+ @media all and (max-width: 768px) {
+  nav > div > a[class*="navbar-brand"],
+  nav.navbar.navbar-shrink .navbar-brand {
+    font-size: 1em !important ;
+  }
+  nav.navbar.navbar-shrink {
+    padding: 0 !important;
   }
 }
