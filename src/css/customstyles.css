@@ -61,6 +61,10 @@ nav > div > a[class*="navbar-brand"]:hover {
   text-shadow: 0 0 25px #60d7ff;
 }
 
+.navbar-light button.navbar-toggler {
+  border: none;
+}
+
 nav.navbar.navbar-shrink {
   padding: 16px 0 !important;
 }
@@ -70,7 +74,7 @@ nav.navbar.navbar-shrink .navbar-brand {
 }
 
 #navbarResponsive a {
-  font-size: large !important;
+  font-size: larger !important;
   transition: 0.15s;
 }
 
@@ -129,7 +133,22 @@ div[class*="row"] > div[class*="text-center"] {
   nav.navbar.navbar-shrink .navbar-brand {
     font-size: 1em !important ;
   }
+  nav.navbar.navbar-shrink button.navbar-toggler {
+    font-size: small !important;
+  }
+
   nav.navbar.navbar-shrink {
     padding: 0 !important;
   }
+
+
+  #navbarResponsive a {
+    font-size: 15px !important;
+  }
+
+  div[class*="row"] > div[class*="text-center"]>h2 {
+    font-size: 30px !important;
+  }
+
+  
 }
