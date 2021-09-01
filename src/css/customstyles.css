@@ -23,10 +23,6 @@ header[class="masthead"] {
   height: 100vh;
 }
 
-header[class="masthead"] > div[class="container"] {
-  margin-top: 10vh;
-}
-
 header[class="masthead"] > div[class="container"] > a[class*="btn"] {
   background-color: #4ec5e2;
   border: none;
