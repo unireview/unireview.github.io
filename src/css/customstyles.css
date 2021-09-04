@@ -17,26 +17,25 @@ nav > div > button[class*="navbar"]:focus {
   box-shadow: none !important;
 }
 
-header[class="masthead"] {
+header.masthead {
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
 }
 
-header[class="masthead"] > div[class="container"] > a[class*="btn"] {
+header.masthead > div[class="container"] > a[class*="btn"] {
   background-color: #4ec5e2;
   border: none;
   transition-duration: 0.15s;
   transition-property: all;
 }
-
-header[class="masthead"] > div[class="container"] > a[class*="btn"]:hover {
+header.masthead > div[class="container"] > a[class*="btn"]:hover {
   background-color: #3c98af;
   color: rgb(189, 189, 189);
   box-shadow: 0 0 1em#6ed0e983;
 }
 
-header[class="masthead"] > div[class="container"] > a[class*="btn"]:focus {
+header.masthead > div[class="container"] > a[class*="btn"]:focus {
   box-shadow: 0 0 0 0.2em#4ec4e283;
 }
 
@@ -137,14 +136,17 @@ div[class*="row"] > div[class*="text-center"] {
     padding: 0 !important;
   }
 
-
   #navbarResponsive a {
     font-size: 15px !important;
   }
 
-  div[class*="row"] > div[class*="text-center"]>h2 {
+  div[class*="row"] > div[class*="text-center"] > h2 {
     font-size: 30px !important;
   }
+}
 
-  
+@media all and (max-height: 725px) {
+  header.masthead {
+    height: min-content;
+  }
 }
