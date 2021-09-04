@@ -137,22 +137,17 @@ div[class*="row"] > div[class*="text-center"] {
     padding: 0 !important;
   }
 
-
   #navbarResponsive a {
     font-size: 15px !important;
   }
 
-  div[class*="row"] > div[class*="text-center"]>h2 {
+  div[class*="row"] > div[class*="text-center"] > h2 {
     font-size: 30px !important;
   }
-
-  
 }
 
-@media all and (max-height: 729px) {
+@media all and (max-height: 725px) {
   header.masthead {
     height: min-content;
-   
   }
-
 }
