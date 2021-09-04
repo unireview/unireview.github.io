@@ -29,6 +29,7 @@ header.masthead > div[class="container"] > a[class*="btn"] {
   transition-duration: 0.15s;
   transition-property: all;
 }
+
 header.masthead > div[class="container"] > a[class*="btn"]:hover {
   background-color: #3c98af;
   color: rgb(189, 189, 189);
